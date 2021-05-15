@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: '&'
+        description: '& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AY0e-g4G-Nh1NgwO4iwwlH4nJ-7QGs6WjAwaZzDHdigfkHR6AH-jJvU4V1Z6k4Iz2wy7YQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME'
         required: true
-      pincode:
+      pincode: 200611
         description: ''
         required: true
   
